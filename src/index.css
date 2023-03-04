@@ -4,11 +4,11 @@
 
 @layer components {
   h3 {
-    @apply text-2xl font-bold;
+    @apply text-xl md:text-2xl font-bold;
   }
 
   .home-item {
-    @apply h-[50vh] bg-gray-800 hover:bg-red-800 active:bg-red-900 text-white grid grid-flow-col cursor-pointer hover:-mt-4;
+    @apply max-h-[50vh] bg-gray-800 hover:bg-red-800 active:bg-red-900 text-white grid grid-flow-col cursor-pointer hover:-mt-4;
 
     grid-template-rows: 80px 1fr;
 
