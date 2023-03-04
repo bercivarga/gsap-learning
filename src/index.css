@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  h3 {
+    @apply text-2xl font-bold;
+  }
+
+  .home-item {
+    @apply h-[50vh] bg-gray-800 hover:bg-red-800 active:bg-red-900 text-white grid grid-flow-col cursor-pointer hover:-mt-4;
+
+    grid-template-rows: 80px 1fr;
+
+    transition: background-color 0.2s ease-in-out, margin 0.2s ease-in-out;
+  }
+
+  .item-title-wrapper {
+    @apply w-full h-full flex items-center justify-center border-gray-100;
+  }
+}

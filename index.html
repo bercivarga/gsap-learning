@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acme Inc.'s Corporate Site</title>
+  </head>
+  <body class="bg-gray-900">
+    <div class="max-w-screen-2xl mx-auto">
+      <section class="h-[50vh] relative">
+        <h1
+          class="main-title absolute left-1/2 -translate-x-1/2 top-full -translate-y-1/2 text-white font-bold text-5xl 2xl:text-7xl leading-tight"
+          style="clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);"
+        >
+            Acme Inc<span class="text-red-700">.</span>
+        </h1>
+        <p
+          class="subtitle absolute left-1/2 -translate-x-1/2 text-center top-[30vh] text-white text-3xl max-w-lg"
+        >
+            Choose from one of our international office locations.
+        </p>
+      </section>
+      <section class="h-[50vh]">
+        <div class="w-full h-full grid grid-cols-3">
+          <button class="home-item">
+            <div class="item-title-wrapper">
+              <h3>Rotterdam</h3>
+            </div>
+            <div class="w-full h-full">
+              <img src="https://images.unsplash.com/photo-1677939748562-9289efc24bf7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2321&q=80" alt="" class="w-full h-full object-cover" />
+            </div>
+          </button>
+          <button class="home-item">
+            <div class="item-title-wrapper">
+              <h3>Toronto</h3>
+            </div>
+            <div class="w-full h-full">
+              <img src="https://images.unsplash.com/photo-1602305679508-397b86b35db9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" alt="" class="w-full h-full object-cover" />
+            </div>
+          </button>
+          <button class="home-item">
+            <div class="item-title-wrapper">
+              <h3>Tokyo</h3>
+            </div>
+            <div class="w-full h-full">
+              <img src="https://images.unsplash.com/photo-1582389880712-f77526aa9cf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" alt="" class="w-full h-full object-cover" />
+            </div>
+          </button>
+        </div>
+      </section>
+    </div>
+    <script type="module" src="src/main.ts"></script>
+  </body>
+</html>
